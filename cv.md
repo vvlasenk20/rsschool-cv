@@ -1,9 +1,9 @@
-# Veronika Ulasenka
+# Veronika Vlasenka
 ***
 ## Contacts:
 * Tel: +375295323009
 * E-mail: ptupchik@rambler.ru
-* Discord: Veronika Ulasenka (@vvlasenk20)
+* Discord: Veronika vlasenka (@vvlasenk20)
 ***
 ## About me
 I am 37 yers old. I have a higher education. 
