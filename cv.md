@@ -12,3 +12,15 @@ exellent team worker and very willing to learn
 and develop new skills. I am responsible 
 worker. And like to work.
 ***
+## Code-Example
+function findOdd(A) {
+  var trace = {};
+  A.forEach(function(x) {
+    if (trace[x]) delete trace[x];
+    else trace[x] = true;
+  });
+  return parseInt(Object.keys(trace)[0]);
+}
+***
+## Education
+BelSYT
