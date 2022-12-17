@@ -54,3 +54,10 @@
     position: relative;
     padding-left: 30px;
   }
+  .footer {
+    color: blue;
+    text-align: right;
+  }
+  #profile {
+    text-align: center;
+  }
