@@ -3,10 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veronika Vlasenko cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>cv</title>
 </head>
 <body>
-    University BelSYT
+    <header class ="header">
+       <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#myskills" class="nav-link">My skills</a></li>
+              <li class="nav-item"><a href="#samplecode" class="nav-link">Sample code</a></li>
+              <li class="nav-item"><a href="#educationalprojects" class="nav-link">Educational projects</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+       </div>
+       </header>
+       <main class = "main">
+        <div class="main-container">
+            <img src="foto1.jpeg" width="200" alt="моя аватарка">
+         <section class="section" id="profile">
+          <h1>Veronika Vlasenko</h1>
+         </section>
+         <section class="section" id="contacts">
+          <h2>Contacts:</h2>
+            <ul>
+              <li><strong>Tel:</strong> +375295323009</li>
+             <li><strong>E-mail:</strong>ptupchik@rambler.ru</li>
+             <li><strong>Discord:</strong> Veronika Vlasenko (@vvlasenk20)</li>
+             <li><strong>Vk:</strong><a href="https://vk.com/id95876624" target="_blank">VK Veronika</a> </li>
+           </ul>
+         </section>
+         <section class="section" id="aboutme">
+       <h2>About me</h2>
+        <p>I am 37 yers old. I have a higher education. I work an engineer from Railway. I am an
+               exellent team worker and very willing to learn and develop new skills. I am responsible 
+               worker. And like to work.</p>
+         </section>
+         <section class="section" id="myskills">
+       <h2>My skills</h2>
+       <ul>
+         <li>Git</li>
+         <li>HTML</li>
+         <li>CSS</li>
+       </ul>
+         </section>
+         <section class="section" id="samplecode">
+       <h2>Sample code</h2>
+             <pre>
+                function findOdd(A) {
+                var trace = {};
+                A.forEach(function(x) {
+                  if (trace[x]) delete trace[x];
+                  else trace[x] = true;
+                });
+                return parseInt(Object.keys(trace)[0]);
+              }
+             </pre>
+         </section>
+         <section class="section" id="educationalprojects">
+       <h2>Educational projects</h2>
+          <p>Rsschool-cv:<a href="https://vvlasenk20.github.io/rsschool-cv/cv" target="_blank">CV</a></p> 
+         </section>
+         <section class="section" id="education">
+          <h2>Education</h2>
+             <ul>
+                 <li>Belarusian State University of Transport//Engineer-2008</li>
+                 <li>RS School. Курс JS/Frontend-разработка</li>
+             </ul>
+         </section>
+         <section class="section" id="english">
+       <h2>English</h2>
+       <p>A1-Elementary</p>
+         </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div><a href="https://rs.school/js/" target="_blank"> <img src="file:///C:/Users/Vike/Documents/GitHub/ucheba/rsschool-cv/fotorscclol.jpeg/rs_school_js.svg" width="50" alt="rsschool"></a>
+        <a href=" https://github.com/vvlasenk20" target="_blank">Veronika Vlasenko</a>2022</div>
+    </footer>
 </body>
 </html>
