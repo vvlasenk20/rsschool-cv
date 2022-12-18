@@ -8,6 +8,8 @@
     line-height: 1,4;
     width: 1000gipx
     color: #6c0d0d;
+    width: 1000;
+    margin: 15;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +42,11 @@
     text-decoration: none;  
     transition: color 0.5s;
   }
+<<<<<<< HEAD
     .section {
+=======
+  .section {
+>>>>>>> 9da962e88a0afaf0ae8c4b9442f9d697a066173d
     width: 50%;
   }
   @media (max-width: 768px) {
