@@ -6,10 +6,13 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1,4;
+    width: 1000gipx
     color: #6c0d0d;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: rgb(235, 182, 191);
+    margin: 30 auto;
   }
   .container {
     max-width: 1440px;
@@ -37,12 +40,7 @@
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .section {
+    .section {
     width: 50%;
   }
   @media (max-width: 768px) {
